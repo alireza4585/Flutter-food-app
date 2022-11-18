@@ -3,6 +3,7 @@ import 'package:recipe/consent/colors.dart';
 
 PreferredSizeWidget appbar() {
   return AppBar(
+    automaticallyImplyLeading: false,
     elevation: 0,
     title: Icon(
       Icons.menu,
